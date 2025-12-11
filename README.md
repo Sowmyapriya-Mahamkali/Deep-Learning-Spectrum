@@ -24,7 +24,7 @@ This project was collaboratively developed by **M. Sowmya Priya** and **Lalitha 
 ---
 
 ## 📂 Repository Structure
-
+```text
 Deep-Learning-Spectrum/
 │
 ├── notebooks/ # Jupyter notebooks covering all experiments
@@ -103,25 +103,23 @@ python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
 
-
+```
 3.Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
-
-Launch Jupyter notebooks:
-
+4. Launch Jupyter notebooks:
+```bash
 jupyter notebook
+```
 
-
-Explore notebooks in sequence from 01_Bayesian_Linear_Models.ipynb → Stage_9_GANs_on_MNIST.ipynb.
+5. Explore notebooks in sequence
+    from 01_Bayesian_Linear_Models.ipynb → Stage_9_GANs_on_MNIST.ipynb.
 
 📝 Collaboration
-
 This project is a team effort by:
-
 M. Sowmya Priya – Deep learning experiments, CNNs, RNNs, GANs
-
 Lalitha Mahamkali – VAE, MLP, data preprocessing, documentation
 
 🔗 References
@@ -131,3 +129,4 @@ Goodfellow, I., Bengio, Y., & Courville, A. Deep Learning. MIT Press, 2016.
 TensorFlow / PyTorch official tutorials
 
 Hands-on deep learning resources for students and enthusiasts
+
